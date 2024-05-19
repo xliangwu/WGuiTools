@@ -1,0 +1,9 @@
+appId: marking-20240519
+productName: 自定义图形设计
+directories:
+  output: './dist'
+  buildResources: 'build'
+  app: './'
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
