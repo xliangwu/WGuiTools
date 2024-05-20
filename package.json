@@ -1,5 +1,5 @@
 {
-  "name": "html_app",
+  "name": "WGUITools",
   "version": "1.0.0",
   "description": "html windows app",
   "main": "main.js",
@@ -16,8 +16,8 @@
     "electron-builder": "^24.13.3"
   },
   "dependencies": {
-    "7zip-bin": "^5.2.0",
     "@develar/schema-utils": "^2.6.5",
+    "7zip-bin": "^5.2.0",
     "schema-utils": "^4.2.0"
   }
 }

@@ -1,5 +1,6 @@
-appId: marking-20240519
-productName: 自定义图形设计
+appId: com.caveup.laser
+productName: LaserDesigner
+compression: maximum
 directories:
   output: './dist'
   buildResources: 'build'
@@ -7,3 +8,12 @@ directories:
 nsis:
   oneClick: false
   allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  artifactName: ${name}-${version}-setup.${ext}
+  shortcutName: ${productName}
+  uninstallDisplayName: ${productName}
+  installerIcon: 'laserPen.ico'
+win:
+  executableName: LaserDesigner.exe
+  icon: laserPen.ico
